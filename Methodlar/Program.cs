@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Methodlar
 {
@@ -34,6 +35,15 @@ namespace Methodlar
             sepet.Add(product);
             sepet.Add(product1);
 
+
+            //Add(1, 2, 3, 4, 5);
+
+        }
+
+
+        static int Add(params int[] numbers)
+        {
+            return numbers.Sum();
         }
     }
 }
