@@ -11,5 +11,10 @@ namespace ClassMethodDemo
         public string soyAd { get; set; }
         public int musteriNo { get; set; }
 
+
+        public void Add2(Musteri musteri)
+        {
+            Console.WriteLine(musteri.Ad);
+        }
     }
 }
